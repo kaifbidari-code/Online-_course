@@ -17,7 +17,7 @@ export function Layout() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-surface-50 text-text-primary">
+    <div className="min-h-screen flex flex-col bg-surface-50 text-text-primary overflow-x-hidden">
       <Navbar />
       <div className="flex-1 flex w-full">
         {isDashboardRoute && <Sidebar />}
