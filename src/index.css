@@ -112,6 +112,14 @@
     @apply sidebar-link text-text-secondary hover:bg-surface-100 hover:text-text-primary;
   }
 
+  .nav-link {
+    @apply flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-medium text-text-secondary hover:text-primary-600 hover:bg-surface-100 transition-colors whitespace-nowrap;
+  }
+
+  .nav-link-active {
+    @apply text-primary-600 bg-primary-50 font-semibold;
+  }
+
   .stat-card {
     @apply card p-6 flex items-start gap-4;
   }
